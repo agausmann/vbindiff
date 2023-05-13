@@ -83,10 +83,10 @@ bool ConWindow::startup()
   if (has_colors()) {
     start_color();
 
-    init_pair(pairWhiteBlue,  COLOR_WHITE,  COLOR_BLUE);
+    init_pair(pairWhiteBlue,  COLOR_WHITE,  COLOR_BLACK);
     init_pair(pairWhiteBlack, COLOR_WHITE,  COLOR_BLACK);
-    init_pair(pairRedBlue,    COLOR_RED,    COLOR_BLUE);
-    init_pair(pairYellowBlue, COLOR_YELLOW, COLOR_BLUE);
+    init_pair(pairRedBlue,    COLOR_RED,    COLOR_BLACK);
+    init_pair(pairYellowBlue, COLOR_YELLOW, COLOR_BLACK);
   } // end if terminal has color
 
   return true;
